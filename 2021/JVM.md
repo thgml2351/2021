@@ -13,7 +13,7 @@
 자바 바이트 코드를 실행시키기 위한 가상의 기계
 자바로 작성된 모든 프로그램은 자바 가상 머신에서만 실행될 수 있다.
 
-> <image src="img/JVM.PNG">
+> ![JVM](https://user-images.githubusercontent.com/66400531/115671407-6f680d00-a385-11eb-83c6-edd39ed4df4e.PNG)
 > 위의 그림처럼 서로 다른 운영체제라도 JVM만 설치되어 있다면, 같은 자바 프로그램이 아무런 추가 조치 없이 동작할 수 있다. 따라서 모든 운영체제에서 같이 사용할 수 있는 장점이 있다.
 
 > 자바 프로그램과는 달리 JVM은 운영체제에 종속적이므로, 각 운영체제에 JVM을 설치해야 한다.<br> 또한, 자바 프로그램은 일반 프로그램보다 JVM이라는 한 단계를 거쳐야 하므로, 상대적으로 실행 속도가 느리다는 단점이 있다.
@@ -36,21 +36,21 @@ D:\han\project\src\test.java
 D:\han\project\src\ : 경로
 test.java : 패키지명
 
-cmd 커맨드 창에 해당 드라이브 명:을 입력한다.
+cmd 커맨드 창에 해당 드라이브 명:을 입력한다.<br>
 ![1](https://user-images.githubusercontent.com/66400531/115671213-3cbe1480-a385-11eb-8fb8-599cca6f49a2.PNG)
 
-그 후 cd + 해당 폴더까지 접근
-<img src="img/2.png">
+그 후 cd + 해당 폴더까지 접근<br>
+![2](https://user-images.githubusercontent.com/66400531/115671370-66773b80-a385-11eb-8d64-e9f96e8d6594.PNG)
 
-javac + 패키지명 + 컴파일할 java파일 입력
-<img src="img/3.png">
+javac + 패키지명 + 컴파일할 java파일 입력<br>
+![3](https://user-images.githubusercontent.com/66400531/115671376-6840ff00-a385-11eb-98f3-c5f378340f6e.PNG)
 
 아무런 메시지가 출력되지 않았으면 컴파일 성공
 
 ### 실행하는 방법
 
-java + java파일 입력
-<img src="img/4.png">
+java + java파일 입력<br>
+![4](https://user-images.githubusercontent.com/66400531/115671391-6b3bef80-a385-11eb-8c4a-e50dba26b12a.PNG)
 
 ### 바이트코드란 무엇인가
 
@@ -82,4 +82,4 @@ java + java파일 입력
 
 > JRE : JVM이 자바프로그램을 실행시킬 때 반드시 필요한 라이브러리 및 기타 필수 파일을 가지고 있다. 자바 프로그램 개발이 아닌 단순 실행만 하려면 JRE만 설치해도 된다.<br> JDK : JRE 외에 개발을 위해 필요한 도구를 가지고 있다.
 
-<img src="img/5.png">
+![5](https://user-images.githubusercontent.com/66400531/115671402-6d9e4980-a385-11eb-90d4-783dbdd952a4.PNG)
