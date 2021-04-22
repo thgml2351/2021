@@ -37,7 +37,7 @@ D:\han\project\src\ : 경로
 test.java : 패키지명
 
 cmd 커맨드 창에 해당 드라이브 명:을 입력한다.
-<img src="img/1.png">
+![1](https://user-images.githubusercontent.com/66400531/115671213-3cbe1480-a385-11eb-8fb8-599cca6f49a2.PNG)
 
 그 후 cd + 해당 폴더까지 접근
 <img src="img/2.png">
