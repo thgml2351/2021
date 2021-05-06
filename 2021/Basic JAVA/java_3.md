@@ -1,5 +1,7 @@
 # 제어문과 루프
 
+<br>
+
 ## 문제 1
 
 ### 출력값을 구해보자.
@@ -16,6 +18,8 @@ if(kor > avg) {
     System.out.println("평균입니다.");
 }
 ```
+
+<br>
 
 ## 문제 2
 
@@ -36,6 +40,8 @@ default :
     System.out.println("에러입니다.");
     break;
 ```
+
+<br>
 
 ## 문제 3
 
