@@ -1,4 +1,4 @@
-# 변수
+# 배열
 
 ## 배열 문법
 
@@ -71,3 +71,31 @@ public class arr2 {
 ![4-2](https://user-images.githubusercontent.com/66400531/117939437-03087a00-b343-11eb-8bce-e3ac89e3c818.PNG)
 
 ## 다차원 배열
+
+```java
+public class Ex10 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int[][] arr = new int[5][5];
+		int i,j;
+		for(i=0; i<arr.length; i++) {
+			for(j=0; j<arr.length; j++) {
+				if(i==j) {
+					arr[i][j] = 1;
+				} else {
+					arr[i][j] = 0;
+				}
+			}
+		}
+		for(i=0; i<arr.length; i++) {
+			for(j=0; j<arr.length; j++) {
+				System.out.print(arr[i][j]);
+			}System.out.println();
+		}
+	}
+
+}
+```
+
+![4-3](https://user-images.githubusercontent.com/66400531/117967735-5fc65d80-b360-11eb-9392-d52355e034b6.png)

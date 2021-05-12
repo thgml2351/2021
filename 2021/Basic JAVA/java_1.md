@@ -17,7 +17,7 @@
 
 ### 출력될 값을 예상하기
 
-```
+```java
 int i1 = 20;
 double d1 = i1;
 System.out.println("d1 데이타는 " + d1 + "입니다.");
