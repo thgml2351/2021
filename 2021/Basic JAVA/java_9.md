@@ -20,6 +20,7 @@ ex) 회사 도메인이 www.javalec.com이라면 com.javalec라고 하고 뒤에
 #### 패키지 이동 (폴더 이동)
 
 드래그로 이동한다.
+
 ![9-3](https://user-images.githubusercontent.com/66400531/118092695-65c34980-b407-11eb-9615-0351450f00a8.PNG)
 
 ## import
@@ -27,10 +28,12 @@ ex) 회사 도메인이 www.javalec.com이라면 com.javalec라고 하고 뒤에
 다른 패키지에 있는 클래스를 가져올때 사용한다.
 
 ![9-4](https://user-images.githubusercontent.com/66400531/118093511-80e28900-b408-11eb-88de-c37a3acfe816.PNG)
+
 import com.javalec.cal.PlusClass;
 PlusClass plusClass = new PlusClass();
 
 ![9-5](https://user-images.githubusercontent.com/66400531/118093729-d5860400-b408-11eb-8cad-44941a759bc9.PNG)
+
 패키지 한개의 여러 클래스를 import할땐 \*를 사용한다.
 
 ## 접근 제한

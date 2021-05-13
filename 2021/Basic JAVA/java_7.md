@@ -16,7 +16,7 @@ public class WomanClass {
 2. 클래스명
 3. 생성자
 
-외부에서 이 클래스를 가지고 객체를 만든다고 하면
+외부에서 이 클래스를 가지고 객체를 만든다고 하면 <br>
 ManClass 변수 = new ManClass();
 
 ```java
@@ -72,6 +72,7 @@ private int age;
 - 다른 객체에서는 접근해서 사용할 수 없다.
 
 private 값을 외부에서 활용할려면
+
 ![7-1](https://user-images.githubusercontent.com/66400531/118077644-7962b600-b3ef-11eb-8a9f-ed1b5bcbe478.PNG)
 ![7-2](https://user-images.githubusercontent.com/66400531/118077683-8ed7e000-b3ef-11eb-9435-171f0a06b5d7.PNG)
 ![7-3](https://user-images.githubusercontent.com/66400531/118077957-26d5c980-b3f0-11eb-9a8f-53de703bf81e.PNG)
