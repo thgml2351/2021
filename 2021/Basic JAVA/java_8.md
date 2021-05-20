@@ -6,7 +6,10 @@ import는 java.util.ArrayList로 추가한다.
 
 ## ArrayList 생성
 
+```java
 ArrayList<Integer> arrayList = new ArrayList<>();
+```
+
 타입은 Integer로 선언했다.
 
 ## ArrayList 추가
@@ -28,7 +31,7 @@ public class ArrayListTest {
 
 결과값 : Blue Black White Red
 
-add()는 기본적으로 리스트의 가장 끝에 값을 추가합니다.
+add()는 기본적으로 리스트의 가장 끝에 값을 추가합니다.<br>
 set() 메소드를 통해 Index의 값을 변경할 수 있다.
 
 ## ArrayList 삭제
@@ -41,7 +44,7 @@ colors.clear();
 System.out.println(colors);
 ```
 
-remove() 메소드를 사용하여 추가했던 값을 삭제한다.
+remove() 메소드를 사용하여 추가했던 값을 삭제한다.<br>
 clear()를 호출하여 ArrayList 안의 내용을 전체 삭제한다.
 
 ## ArrayList 값 탐색
@@ -61,10 +64,10 @@ int index = colors.indexOf("Blue");
 System.out.println(index);
 ```
 
-값이 존재하는지만 알고 싶은 경우 contains()를 사용한다.
+값이 존재하는지만 알고 싶은 경우 contains()를 사용한다.<br>
 contains()는 값이 있는 경우 true를, 값이 없는 경우 false를 리턴한다.
 
-값이 존재할 때 어느 위치에 존재하는지 알고 싶은 경우 indexOf()를 사용한다.
+값이 존재할 때 어느 위치에 존재하는지 알고 싶은 경우 indexOf()를 사용한다.<br>
 indexOf()는 값이 존재하는 경우 해당 엘레멘트의 인덱스를 리턴한다.
 
 ## 프로그래밍이란
