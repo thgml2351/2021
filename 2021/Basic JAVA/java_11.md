@@ -71,6 +71,8 @@ public class MainClass {
 
 부모클래스에서 상속받은 기능을 재정의 할 수 있다.
 
+<br>
+
 ```java
 public class ParentMenu {
 	public ParentMenu() {
