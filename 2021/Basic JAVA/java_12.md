@@ -24,7 +24,7 @@ override의 장점은 잘 만들어진 클래스를 상속받아 일부 메소�
 
 자식클래스에서 부모클래스의 메소드를 사용하고자 할 때 super키워드를 사용한다.
 
-this와 반대라도 생각하면 된다.
+this의 반대라도 생각하면 된다.
 
 ```java
 public class ParentClass {
