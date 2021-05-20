@@ -6,12 +6,16 @@
 
 다양한 객체를 상속을 통해서 하나의 객체로 묶을 수 있다.
 
+<br>
+
 ## 상속 문법
 
 ChildClass extends ParentClass
 상속받는클래스, 키워드, 상속해주는클래스
 
 - 자바는 다중 상속(부모가 여러개)은 안된다.
+
+<br>
 
 ```java
 public class ParentClass {
@@ -60,6 +64,8 @@ public class MainClass {
 > 아버님 이름 : 홍길동 <br>
 > 어머님 이름 : 홍길순 <br>
 > 자식클래스
+
+<br>
 
 ## 재정의
 
