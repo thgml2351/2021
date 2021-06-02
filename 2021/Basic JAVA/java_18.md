@@ -26,11 +26,35 @@ public class ExampleClass {
 }
 ```
 
+```java
+public class Test {
+    public static void main(String[] args) {
+        ExampleClass test1 = ExampleClass.getInstance();
+        ExampleClass test2 = ExampleClass.getInstance();
+
+
+        System.out.println(test1);
+        System.out.println(test2);
+    }
+}
+```
+
+```java
+ExampleClass test3 = new ExampleClass();
+```
+
+위와 같이 직접 생성 불가하다.
+
 instance라는 전역 변수를 선언, static을 줌으로써 인스턴스화 하지 않고 사용할 수 있게 하였지만 접근 제한자가 private로 되어 있어 직접적인 접근은 불가능하다.
 
 또한 생성자도 private로 되어 있어 new를 통한 객체 생성도 불가능하다.
 
 결국 getInstance 메소드를 통해서 해당 인스턴스를 얻을 수 있게 된다.
 
-(+) 어디서든 호출하면 사용할 수 있는 변수 : 전역변수
+---
+
+클래스 전체에서 사용할 수 있는 변수 : 전역변수
 특정한 구역 {} 안에 생성되어 그 지역에만 사용할 수 있는 변수 : 지역변수
+
+붕어빵틀 : Class, 붕어빵 : Object
+각각의 붕어빵 : Instance, 붕어빵을 굽다 = 인스턴스화 하다
