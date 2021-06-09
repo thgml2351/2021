@@ -146,3 +146,60 @@ public class ThrowsExClass {
 > actionCC
 
 ## 일반적으로 많이 보게 되는 예외들
+
+### ArrayIndexOutOfBoundsException
+
+배열을 사용시 존재하지 않는 index값을 호출하면 발생합니다.
+
+```java
+int[] iArr = {0, 1, 2, 3};
+
+System.out.println(iArr[0]);
+System.out.println(iArr[1]);
+System.out.println(iArr[2]);
+System.out.println(iArr[3]);
+
+// 인텍스 4에 해당하는 값이 없습니다.
+System.out.println(iArr[4]);
+```
+
+> 0
+> 1
+> 2
+> 3
+> Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 4
+> at exam.main(exam.java:11)
+
+### NullPointerException
+
+존재하지 않는 객체를 가리킬 때 발생합니다.
+
+```java
+String str = null;
+// 존재하는 객체가 없습니다.
+char c = str.charAt(0);
+```
+
+> Exception in thread "main" java.lang.NullPointerException
+> at exam.main(exam.java:6)
+
+### NumberFormatException
+
+문자를 숫자로 처리할 때 발생합니다.
+
+```java
+String str = "aa";
+int i = 10;
+int j = Integer.parseInt(str)+i;
+```
+
+> Exception in thread "main" java.lang.NumberFormatException: For input string: "aa"
+> at java.lang.NumberFormatException.forInputString(Unknown Source)
+> at java.lang.Integer.parseInt(Unknown Source)
+> at java.lang.Integer.parseInt(Unknown Source)
+> at exam.main(exam.java:6)
+
+### DB관련 Exception
+
+ClassNotFoundException : 드라이브 이름을 찾지 못했을 때 발생합니다.
+SQLException : db url, id, pw가 올바르지 않을 때 발생합니다.
