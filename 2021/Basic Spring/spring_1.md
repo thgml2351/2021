@@ -1,6 +1,6 @@
 # Controller 이해
 
-#### index.html
+## index.html
 
 ```
 <!doctype html>
@@ -21,7 +21,7 @@ Hello
 
 ![1](https://user-images.githubusercontent.com/66400531/134464442-a922cae6-5ff0-4992-b9d6-a1531eadc34e.PNG)
 
-#### hello.html
+## hello.html
 
 ```
 <!doctype html>
@@ -43,7 +43,7 @@ th:text는 서버에서 data라는 변수가 있을 경우 '손님' 자리를 �
 
 ![2](https://user-images.githubusercontent.com/66400531/134464642-c7e7bffd-0d78-4cdc-ac57-391357a75781.PNG)
 
-#### HelloController.java
+## HelloController.java
 
 ```
 package hello.hello_spring.controller;

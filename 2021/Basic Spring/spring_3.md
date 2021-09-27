@@ -1,6 +1,6 @@
 # 스프링 웹 개발 기초
 
-### 정적 컨텐츠
+## 정적 컨텐츠
 
 서버에서 하는거 없이 html 파일을 그대로 넘겨줘서 보여주는 것
 
@@ -10,7 +10,7 @@
 
 ![8](https://user-images.githubusercontent.com/66400531/134606645-0aa46fbc-a91d-46e0-91f0-f216e59bc2a1.jpg)
 
-### MVC와 템플릿 엔진
+## MVC와 템플릿 엔진
 
 > MVC : Model, View, Controller
 
@@ -20,9 +20,9 @@
 
 ![10](https://user-images.githubusercontent.com/66400531/134619930-fa5b3bef-994f-4c89-b55a-dae9bdc19cbb.jpg)
 
-### API
+## API
 
-##### @ResponseBody 문자 반환
+### @ResponseBody 문자 반환
 
 ![11](https://user-images.githubusercontent.com/66400531/134624619-bd958da8-2d33-4a21-a30f-90017272c2ca.PNG)
 
@@ -38,7 +38,7 @@
 - hello = 뷰 이름
 - .jsp = suffix
 
-##### @ResponseBody 객체 반환
+### @ResponseBody 객체 반환
 
 ![12](https://user-images.githubusercontent.com/66400531/134625853-21bf4272-89a0-4c98-936b-4f143b454a0f.PNG)
 
@@ -46,7 +46,7 @@
 
 > json 데이터는 이름과 값의 쌍으로 구성된다.
 
-##### @ResponseBody 사용 원리
+### @ResponseBody 사용 원리
 
 ![13](https://user-images.githubusercontent.com/66400531/134626028-c33e5a60-2c64-4715-b6ea-62e9da787170.jpg)
 
