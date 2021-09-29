@@ -14,7 +14,7 @@
 
 ### MemoryMemberRepositoryTest.java
 
-```
+```java
 package hello.hello_spring.repository;
 
 import hello.hello_spring.domain.Member;
@@ -94,7 +94,7 @@ public class MemoryMemberRepositoryTest{
 
 ### MemoryMemberRepository.java
 
-```
+```java
     public void clearStore() {
         store.clear();
     }

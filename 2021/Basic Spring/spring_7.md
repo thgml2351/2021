@@ -16,7 +16,7 @@
 
 ### MemberServiceTest.java
 
-```
+```java
 class MemberServiceTest {
     MemberService memberService;
     MemberRepository memberRepository;

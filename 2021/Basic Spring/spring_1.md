@@ -23,19 +23,21 @@ Hello
 
 ## hello.html
 
-```
-<!doctype html>
+```html
+<!DOCTYPE html>
 <html xmlns="http://www.thymeleaf.org">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Document</title>
-</head>
-<body>
-<p th:text="'안녕하세요. ' + ${data}">손님</p>
-</body>
+  </head>
+  <body>
+    <p th:text="'안녕하세요. ' + ${data}">손님</p>
+  </body>
 </html>
 ```
 
@@ -45,7 +47,7 @@ th:text는 서버에서 data라는 변수가 있을 경우 '손님' 자리를 �
 
 ## HelloController.java
 
-```
+```java
 package hello.hello_spring.controller;
 
 import org.springframework.stereotype.Controller;

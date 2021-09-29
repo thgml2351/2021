@@ -81,7 +81,7 @@ name으로 Member 객체를 검색하는 findbyName함수
 
 repository 폴더 안에 MemberRepository 인터페이스를 구현한 MemoryMemberRepository로 자바 파일을 생성합니다.
 
-```
+```java
 package hello.hello_spring.repository;
 
 import hello.hello_spring.domain.Member;

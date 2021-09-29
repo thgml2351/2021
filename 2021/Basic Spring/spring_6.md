@@ -10,7 +10,7 @@
 
 ### MemberService.java
 
-```
+```java
 package hello.hello_spring.service;
 
 import hello.hello_spring.domain.Member;
